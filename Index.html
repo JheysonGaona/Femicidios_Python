@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Femicidios México</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+</head>
+<body>
+	<header>
+		<h1>Femicidios en México</h1>
+	</header>
+	<nav>
+		<a href="">Agregar nuevo caso de femicidio</a>
+		<a href="">Listado de casos de femicidio</a>
+	</nav>
+	<form>
+		<h2>Registrar nuevo caso de femicidio</h2>
+		<div class="parteIzq">
+			<label>Información de la victima</label>
+			<input type="text" name="nombVictima" placeholder="Nombre de la victima">
+			<input type="text" name="apelVictima" placeholder="Apellido de la victima">
+			<input class="edad" type="number" name="edadVictima" placeholder="Edad de la victima">
+			<input type="text" name="ocupVictima" placeholder="Ocupacion de la Victima">
+			<input type="text" name="naciVictima" placeholder="Nacionalidad de la victima">
+			<label>Información del agresor</label>
+			<input type="text" name="nombAgresor" placeholder="Nombre del agresor">
+			<input type="text" name="apelAgresor" placeholder="Apellido del agresor">
+			<input class="edad" type="number" name="edadAgresor" placeholder="Edad del agresor">
+			<input type="text" name="ocupAgresor" placeholder="Ocupacion del agresor">
+			<input type="text" name="naciAgresor" placeholder="Nacionalidad del agresor">
+			<input type="text" name="situaAgresor" placeholder="Situación del agresor">
+			<label>información del lugar del femicidio</label>
+			<select name="0">
+				<option value="0">Municipio</option>
+				<option value="1"></option>
+				<option value="2"></option>
+				<option value="3"></option>
+				<option value="4"></option>
+				<option value="5"></option>
+				<option value="6"></option>
+				<option value="7"></option>
+				<option value="8"></option>
+				<option value="9"></option>
+				<option value="10"></option>
+				<option value="11"></option>
+				<option value="12"></option>
+				<option value="13"></option>
+				<option value="14"></option>
+				<option value="15"></option>
+				<option value="16"></option>
+				<option value="17"></option>
+				<option value="18"></option>
+				<option value="19"></option>
+				<option value="20"></option>
+				<option value="21"></option>
+				<option value="22"></option>
+				<option value="23"></option>
+				<option value="24"></option>
+				<option value="25"></option>
+				<option value="26"></option>
+				<option value="27"></option>
+				<option value="28"></option>
+				<option value="29"></option>
+				<option value="30"></option>
+				<option value="31"></option>
+				<option value="32"></option>
+				<option value="33"></option>
+				<option value="34"></option>
+				<option value="35"></option>
+				<option value="36"></option>
+				<option value="37"></option>
+				<option value="38"></option>
+				<option value="39"></option>
+				<option value="40"></option>
+			</select>
+			<input type="text" name="nombDepartamento" placeholder="Departamento">
+			<input type="text" name="nombBarrio" placeholder="Barrio">
+			<input type="text" name="lugarFemicidio" placeholder="Calles o barrio del femicidio">
+		</div>
+		<div class="parteDer">
+			<label>Informacion de femicidio</label>
+
+			<div class="fecha">
+				<label class="fechaFemicidio">* Fecha del femicidio:</label>
+				<input class="fechaFemicidio" type="date" name="fechaFemicidio">
+			</div>
+
+			<input type="text" name="armaUsadaFemicidio" placeholder="Arma usada para el femicidio">
+			<input type="text" name="horamuerte" placeholder="Hora de muerte">
+			<input type="text" name="causaMuerte" placeholder="Causa de muerte">
+			<label>Información de la fuente del femicidio</label>
+			<input type="text" name="urlFuente" placeholder="Url">
+			<input type="text" name="palabClavesFuente" placeholder="Palabras claves">
+			<input type="text" name="textFuente" placeholder="Texto">
+
+			<div class="fecha">
+				<label class="fechaReportajeFuente">* Fecha de reportaje:</label>
+				<input class="fechaReportajeFuente" type="date" name="fechaReportajeFuente" placeholder="">	
+			</div>
+
+			<input type="text" name="categFuente" placeholder="Categoria">
+			<input type="text" name="autorFuente" placeholder="Autor de la fuente de información">
+			<label>Información del caso del femicidio</label>
+			<input type="text" name="estadCaso" placeholder="Estado del caso">
+			<input type="text" name="senteCaso" placeholder="Sentencia del agresor">
+			<input type="text" name="testCaso" placeholder="Testigos">
+			<input type="text" name="relaConVictima" placeholder="Relación del agresor con la victima">
+			<input type="text" name="agresPrevia" placeholder="Agresión previa">
+		</div>
+		<button>Agregar caso</button>
+	</form>
+</body>
+</html>

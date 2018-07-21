@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-repeat: no-repeat;
+}
+
+header{
+	margin: 30px auto;
+	text-align: center;
+}
+
+nav{
+	padding: 10px 0 25px 0;
+}
+
+a{
+	text-decoration: none;
+	margin: 0 25px;
+	color: black;
+	float: right;
+}
+
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+form{
+	width: 650px;
+	margin: 0 auto;
+}
+
+h2{
+	text-align: center;
+	margin: 0 0 10px 0;
+	padding: 20px 0;
+}
+
+div.parteIzq, div.parteDer{
+	margin-left: 15px;
+	display: inline-grid;
+	width: 300px;
+}
+
+label{
+	font-family: arial;
+	font-size: 17px;
+	margin: 5px 0;
+	text-align: center;
+	padding: 7px 0;
+}
+
+label.fechaFemicidio, label.fechaReportajeFuente{
+	padding: 5px 0;
+	font-size: 14px;
+}
+
+input{
+	padding: 5px 10px;
+	font-size: 12px;
+	margin: .75px 0 ;
+}
+
+input.edad{
+	width: 276px;
+}
+
+div.fecha{
+	display: inline-flex;
+}
+
+input.fechaFemicidio{
+	margin-left: 11px;
+	width: 129px;
+}
+
+input.fechaReportajeFuente{
+	margin-left: 11px;
+	width: 130px;
+}
+
+button{
+	margin: 20px 0 20px 230px;
+	font-family: arial;
+	font-size: 18px;
+	height: 40px;
+	width: 200px;
+	cursor: pointer;
+}
+
+button:hover{
+	background: cyan;
+}
